@@ -1,0 +1,16 @@
+highlighter: rouge
+permalink: pretty
+title: "You Eye"
+description: "you Eye is used to house all my favorite GH-Pages things"
+color: "white"
+keywords: "develpment"
+twitter: "@lukejpreston"
+navigation: [ { name: "home", href: ""}]
+footer: {
+    left: "You Eye",
+    right: "Developed by Luke Preston",
+    icons: [{href: "https://github.com/lukejpreston/you_eye", kind: "github"}]
+  }
+url: "http://lukejpreston.github.io/you_eye"
+email: "lukejpreston@gmail.com"
+owner: "Luke Preston"
