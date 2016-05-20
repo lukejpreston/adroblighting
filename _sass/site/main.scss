@@ -1,0 +1,16 @@
+header {
+  .banner_src,
+  .banner_title {
+    height: 64px;
+    display: inline-block;
+    float: left;
+    margin: 1.5rem;
+  }
+  .banner_src {
+    width: 64px;
+  }
+  .banner_title {
+    font-size: 26px;
+    line-height: 64px;
+  }
+}
