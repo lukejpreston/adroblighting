@@ -5,7 +5,13 @@ description: "Website for Adam Robinson Lighting"
 color: "#D1880A"
 keywords: "adam robinson lighting and sound"
 twitter: "@adam1264"
-navigation: [ { name: "home", href: ""}]
+navigation: [{
+              name: "home", href: ""
+            }, {
+              name: "portfolio", href: "portfolio"
+            }, {
+              name: "events", href: "events"
+            }]
 footer: {
     left: "Adam Robinson Lighting",
     right: "Home for lighting and sound",
