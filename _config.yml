@@ -8,6 +8,8 @@ twitter: "@adam1264"
 navigation: [{
               name: "home", href: ""
             }, {
+              name: "contacts", href: "contacts"
+            }, {
               name: "portfolio", href: "portfolio"
             }, {
               name: "events", href: "events"
