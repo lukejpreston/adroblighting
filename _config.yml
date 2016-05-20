@@ -4,12 +4,18 @@ title: "Adam Robinson Lighting"
 description: "Website for Adam Robinson Lighting"
 color: "#D1880A"
 keywords: "adam robinson lighting and sound"
-twitter: "@lukejpreston"
+twitter: "@adam1264"
 navigation: [ { name: "home", href: ""}]
 footer: {
     left: "Adam Robinson Lighting",
     right: "Home for lighting and sound",
-    icons: [{href: "https://github.com/lukejpreston/adroblighting", kind: "github"}]
+    icons: [{
+      href: "email:adrob.lighting@gmail.com", kind: "mail4"
+    }, {
+      href: "https://twitter.com/adam1264", kind: "twitter"
+    },{
+      href: "https://github.com/lukejpreston/adroblighting", kind: "github"
+    }]
   }
 url: "http://lukejpreston.github.io/adroblighting"
 email: "lukejpreston@gmail.com"
