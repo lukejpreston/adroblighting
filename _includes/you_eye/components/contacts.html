@@ -13,7 +13,11 @@
                     <input class="u-full-width" type="text" name="_subject" placeholder="subject" />
                     <legend>Message</legend>
                     <textarea class="u-full-width" type="text" name="message" placeholder="message"></textarea>
-                    <input type="hidden" name="_next" value="/thanks" />
+                    {% if site.url %}
+                      <input type="hidden" name="_next" value="{{site.url}}/thanks" />
+                    {% else %}
+                      <input type="hidden" name="_next" value="thanks" />
+                    {% endif %}
                     <input type="text" name="_gotcha" style="display:none" />
                     <div class="u-full-width">
                         <input class="button-primary column one-half" type="submit" value="SEND">
